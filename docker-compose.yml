@@ -9,4 +9,4 @@ services:
       - 3000:3000
     volumes: 
       - ./:/usr/share/node/app
-    command: npm install  
+    command: npm install  && npm start
