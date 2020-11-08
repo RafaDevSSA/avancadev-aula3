@@ -1,0 +1,12 @@
+version: "3"
+
+services: 
+  avancadev-aula3:
+    image: node
+    container_name: avancadev-aula3
+    working_dir: /usr/share/node/app
+    ports: 
+      - 3000:3000
+    volumes: 
+      - ./:/usr/share/node/app
+    command: npm install  
